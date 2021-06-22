@@ -1,0 +1,22 @@
+{
+  "name": "helloworldnode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheRealVish/helloworldnode.git"
+  },
+  "author": "mnms",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheRealVish/helloworldnode/issues"
+  },
+  "homepage": "https://github.com/TheRealVish/helloworldnode#readme",
+  "dependencies": {
+    "chalk": "^4.1.1"
+  }
+}
