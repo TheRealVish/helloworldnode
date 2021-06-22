@@ -1,1 +1,6 @@
-export { heyworld } from './heyworld/heyworld';
+function heyworld() {
+    const helloworld = 1;
+    return helloworld;
+}
+
+export {heyworld};

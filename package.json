@@ -1,8 +1,9 @@
 {
   "name": "helloworldnode_tryout",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "1.0.8",
+  "description": "hello world",
+  "type": "module",
+	"exports": "./index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,12 +12,14 @@
     "url": "git+https://github.com/TheRealVish/helloworldnode.git"
   },
   "author": "mnms",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/TheRealVish/helloworldnode/issues"
   },
   "homepage": "https://github.com/TheRealVish/helloworldnode#readme",
   "dependencies": {
-    "chalk": "^4.1.1"
-  }
+    "chalk": "^4.1.1",
+    "helloworldnode_tryout": "^1.0.2"
+  },
+  "devDependencies": {}
 }
